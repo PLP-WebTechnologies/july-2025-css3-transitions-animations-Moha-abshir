@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Coding Journey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>My Coding Journey</h1>
+    <button id="animateBoxBtn">Animate My Progress</button>
+  </header>
+
+  <main>
+    <!--  Animated Box -->
+    <section id="progress-section">
+      <h2>Milestone Animation</h2>
+      <div id="progress-box" class="box">🚀</div>
+    </section>
+
+    <!-- Card Flip -->
+    <section id="flip-section">
+      <h2>Favorite Language</h2>
+      <div class="card" id="flipCard">
+        <div class="card-inner">
+          <div class="card-front">Guess!</div>
+          <div class="card-back">JavaScript 💛</div>
+        </div>
+      </div>
+      <button id="flipBtn">Flip Card</button>
+    </section>
+
+    <!-- Loading Animation -->
+    <section id="loading-section">
+      <h2>Loading New Skills</h2>
+      <div id="loader" class="loader"></div>
+      <button id="toggleLoaderBtn">Start/Stop Loading</button>
+    </section>
+
+    <!-- Part 4: Popup Modal -->
+    <section id="modal-section">
+      <h2>Share Your Journey</h2>
+      <button id="openModalBtn">Open Modal</button>
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span id="closeModalBtn" class="close">&times;</span>
+          <p>Keep coding and never stop learning!</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
